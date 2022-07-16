@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<h3 style="width:30%;text-align: center;margin-left: 35%;">登录</h3>
+<form method="post" action="/login/index.html" style="text-align: center;width: 30%;margin-left: 35%;border-bottom-color: dimgray;" >
+    <div class="form-group row">
+        <label for="username" class="col-sm-3 col-form-label">用户名</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="username" name="username" value="admin" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="password" class="col-sm-3 col-form-label">密码</label>
+        <div class="col-sm-9">
+            <input type="password" class="form-control" id="password" name="password" value="123" />
+        </div>
+    </div>
+
+<!--    <div class="form-group row">-->
+        <button  type="submit" class="form-control btn btn-primary">提交</button>
+<!--    </div>-->
+</form>
+
+
+</body>
+</html>
